@@ -8,6 +8,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, TouchableHighlight, Button} from 'react-native';
+import Doraemonkit from 'react-native-doraemonkit'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -26,7 +27,10 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>{instructions}</Text>
         <Button
           onPress={() => {
-            alert('You tapped the button')
+            // alert('You tapped the button')
+            Doraemonkit.sampleMethod('test', 123, (val) => {
+              alert(val)
+            })
           }}
           title="Press me"
         />
