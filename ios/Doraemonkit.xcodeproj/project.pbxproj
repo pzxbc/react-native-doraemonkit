@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* Doraemonkit.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* Doraemonkit.m */; };
+		2216AE4024B0313300D7B95F /* RNClientServerListPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AE3C24B0313300D7B95F /* RNClientServerListPlugin.m */; };
+		2216AE4124B0313300D7B95F /* RNClientServerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AE3F24B0313300D7B95F /* RNClientServerListViewController.m */; };
+		2216AE4724B032AB00D7B95F /* DoraemonCacheManager+RNDevTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AE4624B032AB00D7B95F /* DoraemonCacheManager+RNDevTool.m */; };
+		2216AEA324B0557D00D7B95F /* RNAppConfigPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AEA224B0557D00D7B95F /* RNAppConfigPlugin.m */; };
+		2216AEA624B056C800D7B95F /* RNAppConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AEA524B056C800D7B95F /* RNAppConfigViewController.m */; };
+		2216AEAA24B072FA00D7B95F /* RNDevToolConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AEA924B072FA00D7B95F /* RNDevToolConstants.m */; };
+		22AFB8D524AE10EE0049DD57 /* RNReloadPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AFB8D424AE10EE0049DD57 /* RNReloadPlugin.m */; };
+		B3E7B58A1CC2AC0600A0062D /* RNDoraemonkit.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNDoraemonkit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,8 +31,23 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libDoraemonkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDoraemonkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* Doraemonkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doraemonkit.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* Doraemonkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doraemonkit.m; sourceTree = "<group>"; };
+		2216AE3C24B0313300D7B95F /* RNClientServerListPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNClientServerListPlugin.m; sourceTree = "<group>"; };
+		2216AE3D24B0313300D7B95F /* RNClientServerListPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNClientServerListPlugin.h; sourceTree = "<group>"; };
+		2216AE3E24B0313300D7B95F /* RNClientServerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNClientServerListViewController.h; sourceTree = "<group>"; };
+		2216AE3F24B0313300D7B95F /* RNClientServerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNClientServerListViewController.m; sourceTree = "<group>"; };
+		2216AE4524B032AB00D7B95F /* DoraemonCacheManager+RNDevTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DoraemonCacheManager+RNDevTool.h"; sourceTree = "<group>"; };
+		2216AE4624B032AB00D7B95F /* DoraemonCacheManager+RNDevTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DoraemonCacheManager+RNDevTool.m"; sourceTree = "<group>"; };
+		2216AEA124B0555900D7B95F /* RNAppConfigPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppConfigPlugin.h; sourceTree = "<group>"; };
+		2216AEA224B0557D00D7B95F /* RNAppConfigPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppConfigPlugin.m; sourceTree = "<group>"; };
+		2216AEA424B0568100D7B95F /* RNAppConfigViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppConfigViewController.h; sourceTree = "<group>"; };
+		2216AEA524B056C800D7B95F /* RNAppConfigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppConfigViewController.m; sourceTree = "<group>"; };
+		2216AEA824B072EC00D7B95F /* RNDevToolConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDevToolConstants.h; sourceTree = "<group>"; };
+		2216AEA924B072FA00D7B95F /* RNDevToolConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNDevToolConstants.m; sourceTree = "<group>"; };
+		22287A50249B136000342C7E /* DoraemonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DoraemonKit.framework; sourceTree = "<group>"; };
+		22AFB8D324AE10EE0049DD57 /* RNReloadPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNReloadPlugin.h; sourceTree = "<group>"; };
+		22AFB8D424AE10EE0049DD57 /* RNReloadPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNReloadPlugin.m; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNDoraemonkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDoraemonkit.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNDoraemonkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDoraemonkit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,11 +69,98 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2216AE4224B0321100D7B95F /* Doraemonkit */ = {
+			isa = PBXGroup;
+			children = (
+				2216AE4324B0321F00D7B95F /* Core */,
+				22AFB8D124AE10190049DD57 /* Plugins */,
+			);
+			path = Doraemonkit;
+			sourceTree = "<group>";
+		};
+		2216AE4324B0321F00D7B95F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2216AEA724B072D400D7B95F /* Constants */,
+				2216AE4424B0323800D7B95F /* Cache */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2216AE4424B0323800D7B95F /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				2216AE4524B032AB00D7B95F /* DoraemonCacheManager+RNDevTool.h */,
+				2216AE4624B032AB00D7B95F /* DoraemonCacheManager+RNDevTool.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		2216AEA024B0546800D7B95F /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				2216AEA124B0555900D7B95F /* RNAppConfigPlugin.h */,
+				2216AEA224B0557D00D7B95F /* RNAppConfigPlugin.m */,
+				2216AEA424B0568100D7B95F /* RNAppConfigViewController.h */,
+				2216AEA524B056C800D7B95F /* RNAppConfigViewController.m */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		2216AEA724B072D400D7B95F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2216AEA824B072EC00D7B95F /* RNDevToolConstants.h */,
+				2216AEA924B072FA00D7B95F /* RNDevToolConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		22287A4E249B11EE00342C7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22287A50249B136000342C7E /* DoraemonKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		22AFB8D124AE10190049DD57 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				2216AEA024B0546800D7B95F /* AppConfig */,
+				22AFB8FC24B02E9E0049DD57 /* ClientServerList */,
+				22AFB8D224AE10C70049DD57 /* Reload */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		22AFB8D224AE10C70049DD57 /* Reload */ = {
+			isa = PBXGroup;
+			children = (
+				22AFB8D324AE10EE0049DD57 /* RNReloadPlugin.h */,
+				22AFB8D424AE10EE0049DD57 /* RNReloadPlugin.m */,
+			);
+			path = Reload;
+			sourceTree = "<group>";
+		};
+		22AFB8FC24B02E9E0049DD57 /* ClientServerList */ = {
+			isa = PBXGroup;
+			children = (
+				2216AE3D24B0313300D7B95F /* RNClientServerListPlugin.h */,
+				2216AE3C24B0313300D7B95F /* RNClientServerListPlugin.m */,
+				2216AE3E24B0313300D7B95F /* RNClientServerListViewController.h */,
+				2216AE3F24B0313300D7B95F /* RNClientServerListViewController.m */,
+			);
+			path = ClientServerList;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* Doraemonkit.h */,
-				B3E7B5891CC2AC0600A0062D /* Doraemonkit.m */,
+				2216AE4224B0321100D7B95F /* Doraemonkit */,
+				22287A4E249B11EE00342C7E /* Frameworks */,
+				B3E7B5881CC2AC0600A0062D /* RNDoraemonkit.h */,
+				B3E7B5891CC2AC0600A0062D /* RNDoraemonkit.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +204,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -112,7 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* Doraemonkit.m in Sources */,
+				2216AEA324B0557D00D7B95F /* RNAppConfigPlugin.m in Sources */,
+				2216AEAA24B072FA00D7B95F /* RNDevToolConstants.m in Sources */,
+				2216AEA624B056C800D7B95F /* RNAppConfigViewController.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNDoraemonkit.m in Sources */,
+				2216AE4024B0313300D7B95F /* RNClientServerListPlugin.m in Sources */,
+				2216AE4724B032AB00D7B95F /* DoraemonCacheManager+RNDevTool.m in Sources */,
+				2216AE4124B0313300D7B95F /* RNClientServerListViewController.m in Sources */,
+				22AFB8D524AE10EE0049DD57 /* RNReloadPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +332,12 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
@@ -231,6 +352,10 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
