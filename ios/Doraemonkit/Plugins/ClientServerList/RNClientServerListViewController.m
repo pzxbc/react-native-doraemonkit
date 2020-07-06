@@ -44,7 +44,7 @@
     _switchView.delegate = self;
     [self.view addSubview:_switchView];
    */
-  _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, self.bigTitleView.doraemon_bottom, self.view.doraemon_width, kDoraemonSizeFrom750_Landscape(400))];
+  _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, self.bigTitleView.doraemon_bottom, self.view.doraemon_width, kDoraemonSizeFrom750_Landscape(800))];
   //_tableView.translatesAutoresizingMaskIntoConstraints = true;
   [_tableView setDataSource:self];
   [_tableView setDelegate:self];
