@@ -13,6 +13,14 @@
 		2216AEA324B0557D00D7B95F /* RNAppConfigPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AEA224B0557D00D7B95F /* RNAppConfigPlugin.m */; };
 		2216AEA624B056C800D7B95F /* RNAppConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AEA524B056C800D7B95F /* RNAppConfigViewController.m */; };
 		2216AEAA24B072FA00D7B95F /* RNDevToolConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AEA924B072FA00D7B95F /* RNDevToolConstants.m */; };
+		2216AF7F24B099F300D7B95F /* DoraemonWeexLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AF7124B099F300D7B95F /* DoraemonWeexLogger.m */; };
+		2216AF8024B099F300D7B95F /* DoraemonWeexLogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AF7224B099F300D7B95F /* DoraemonWeexLogDataSource.m */; };
+		2216AF8124B099F300D7B95F /* DoraemonWeexLogPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AF7324B099F300D7B95F /* DoraemonWeexLogPlugin.m */; };
+		2216AF8224B099F300D7B95F /* DoraemonWeexLogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AF7624B099F300D7B95F /* DoraemonWeexLogModel.m */; };
+		2216AF8324B099F300D7B95F /* DoraemonWeexLogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AF7A24B099F300D7B95F /* DoraemonWeexLogCell.m */; };
+		2216AF8424B099F300D7B95F /* DoraemonWeexLogLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AF7B24B099F300D7B95F /* DoraemonWeexLogLevelView.m */; };
+		2216AF8524B099F300D7B95F /* DoraemonWeexLogSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AF7D24B099F300D7B95F /* DoraemonWeexLogSearchView.m */; };
+		2216AF8624B099F300D7B95F /* DoraemonWeexLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2216AF7E24B099F300D7B95F /* DoraemonWeexLogViewController.m */; };
 		22AFB8D524AE10EE0049DD57 /* RNReloadPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AFB8D424AE10EE0049DD57 /* RNReloadPlugin.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNDoraemonkit.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNDoraemonkit.m */; };
 /* End PBXBuildFile section */
@@ -43,6 +51,22 @@
 		2216AEA524B056C800D7B95F /* RNAppConfigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppConfigViewController.m; sourceTree = "<group>"; };
 		2216AEA824B072EC00D7B95F /* RNDevToolConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNDevToolConstants.h; sourceTree = "<group>"; };
 		2216AEA924B072FA00D7B95F /* RNDevToolConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNDevToolConstants.m; sourceTree = "<group>"; };
+		2216AF6C24B099F300D7B95F /* DoraemonWeexLogPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWeexLogPlugin.h; sourceTree = "<group>"; };
+		2216AF6D24B099F300D7B95F /* DoraemonWeexLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWeexLogViewController.h; sourceTree = "<group>"; };
+		2216AF6F24B099F300D7B95F /* DoraemonWeexLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWeexLogger.h; sourceTree = "<group>"; };
+		2216AF7024B099F300D7B95F /* DoraemonWeexLogDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWeexLogDataSource.h; sourceTree = "<group>"; };
+		2216AF7124B099F300D7B95F /* DoraemonWeexLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWeexLogger.m; sourceTree = "<group>"; };
+		2216AF7224B099F300D7B95F /* DoraemonWeexLogDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWeexLogDataSource.m; sourceTree = "<group>"; };
+		2216AF7324B099F300D7B95F /* DoraemonWeexLogPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWeexLogPlugin.m; sourceTree = "<group>"; };
+		2216AF7524B099F300D7B95F /* DoraemonWeexLogModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWeexLogModel.h; sourceTree = "<group>"; };
+		2216AF7624B099F300D7B95F /* DoraemonWeexLogModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWeexLogModel.m; sourceTree = "<group>"; };
+		2216AF7824B099F300D7B95F /* DoraemonWeexLogLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWeexLogLevelView.h; sourceTree = "<group>"; };
+		2216AF7924B099F300D7B95F /* DoraemonWeexLogSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWeexLogSearchView.h; sourceTree = "<group>"; };
+		2216AF7A24B099F300D7B95F /* DoraemonWeexLogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWeexLogCell.m; sourceTree = "<group>"; };
+		2216AF7B24B099F300D7B95F /* DoraemonWeexLogLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWeexLogLevelView.m; sourceTree = "<group>"; };
+		2216AF7C24B099F300D7B95F /* DoraemonWeexLogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoraemonWeexLogCell.h; sourceTree = "<group>"; };
+		2216AF7D24B099F300D7B95F /* DoraemonWeexLogSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWeexLogSearchView.m; sourceTree = "<group>"; };
+		2216AF7E24B099F300D7B95F /* DoraemonWeexLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoraemonWeexLogViewController.m; sourceTree = "<group>"; };
 		22287A50249B136000342C7E /* DoraemonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DoraemonKit.framework; sourceTree = "<group>"; };
 		22AFB8D324AE10EE0049DD57 /* RNReloadPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNReloadPlugin.h; sourceTree = "<group>"; };
 		22AFB8D424AE10EE0049DD57 /* RNReloadPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNReloadPlugin.m; sourceTree = "<group>"; };
@@ -116,6 +140,53 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		2216AF6B24B099F300D7B95F /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				2216AF6C24B099F300D7B95F /* DoraemonWeexLogPlugin.h */,
+				2216AF7324B099F300D7B95F /* DoraemonWeexLogPlugin.m */,
+				2216AF6D24B099F300D7B95F /* DoraemonWeexLogViewController.h */,
+				2216AF7E24B099F300D7B95F /* DoraemonWeexLogViewController.m */,
+				2216AF6E24B099F300D7B95F /* Function */,
+				2216AF7424B099F300D7B95F /* Model */,
+				2216AF7724B099F300D7B95F /* View */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		2216AF6E24B099F300D7B95F /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				2216AF6F24B099F300D7B95F /* DoraemonWeexLogger.h */,
+				2216AF7124B099F300D7B95F /* DoraemonWeexLogger.m */,
+				2216AF7024B099F300D7B95F /* DoraemonWeexLogDataSource.h */,
+				2216AF7224B099F300D7B95F /* DoraemonWeexLogDataSource.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		2216AF7424B099F300D7B95F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2216AF7524B099F300D7B95F /* DoraemonWeexLogModel.h */,
+				2216AF7624B099F300D7B95F /* DoraemonWeexLogModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2216AF7724B099F300D7B95F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2216AF7824B099F300D7B95F /* DoraemonWeexLogLevelView.h */,
+				2216AF7D24B099F300D7B95F /* DoraemonWeexLogSearchView.m */,
+				2216AF7924B099F300D7B95F /* DoraemonWeexLogSearchView.h */,
+				2216AF7A24B099F300D7B95F /* DoraemonWeexLogCell.m */,
+				2216AF7B24B099F300D7B95F /* DoraemonWeexLogLevelView.m */,
+				2216AF7C24B099F300D7B95F /* DoraemonWeexLogCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		22287A4E249B11EE00342C7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +198,7 @@
 		22AFB8D124AE10190049DD57 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				2216AF6B24B099F300D7B95F /* Log */,
 				2216AEA024B0546800D7B95F /* AppConfig */,
 				22AFB8FC24B02E9E0049DD57 /* ClientServerList */,
 				22AFB8D224AE10C70049DD57 /* Reload */,
@@ -224,12 +296,20 @@
 			files = (
 				2216AEA324B0557D00D7B95F /* RNAppConfigPlugin.m in Sources */,
 				2216AEAA24B072FA00D7B95F /* RNDevToolConstants.m in Sources */,
+				2216AF8124B099F300D7B95F /* DoraemonWeexLogPlugin.m in Sources */,
+				2216AF8324B099F300D7B95F /* DoraemonWeexLogCell.m in Sources */,
+				2216AF8524B099F300D7B95F /* DoraemonWeexLogSearchView.m in Sources */,
 				2216AEA624B056C800D7B95F /* RNAppConfigViewController.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNDoraemonkit.m in Sources */,
 				2216AE4024B0313300D7B95F /* RNClientServerListPlugin.m in Sources */,
 				2216AE4724B032AB00D7B95F /* DoraemonCacheManager+RNDevTool.m in Sources */,
+				2216AF8624B099F300D7B95F /* DoraemonWeexLogViewController.m in Sources */,
 				2216AE4124B0313300D7B95F /* RNClientServerListViewController.m in Sources */,
 				22AFB8D524AE10EE0049DD57 /* RNReloadPlugin.m in Sources */,
+				2216AF8424B099F300D7B95F /* DoraemonWeexLogLevelView.m in Sources */,
+				2216AF7F24B099F300D7B95F /* DoraemonWeexLogger.m in Sources */,
+				2216AF8224B099F300D7B95F /* DoraemonWeexLogModel.m in Sources */,
+				2216AF8024B099F300D7B95F /* DoraemonWeexLogDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

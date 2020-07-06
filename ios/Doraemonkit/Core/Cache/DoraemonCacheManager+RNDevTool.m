@@ -36,4 +36,10 @@ static NSString *const ServerInfoKey = @"RNDevTool_serverInfo";
     return val;
 }
 
+-(void)delKey:(NSString*)key
+{
+    [self.defaults removeObjectForKey:key];
+    [self.defaults synchronize];
+}
+
 @end

@@ -36,6 +36,10 @@
     [_inputView needDownLine];
     _inputView.textField.delegate = self;
     _inputView.textField.accessibilityIdentifier = RNDevServerHostKey;
+    NSString *serverHost = [[DoraemonCacheManager sharedInstance] getInfoByKey:RNDevServerHostKey];
+    if (serverHost) {
+        _inputView.textField.text = serverHost;
+    }
     [self.view addSubview:_inputView];
 }
 
@@ -57,6 +61,10 @@
         return;
     }
     if ([textField.accessibilityIdentifier isEqualToString:@""]) {
+        return;
+    }
+    if([textField.text isEqualToString:@""]) {
+        [[DoraemonCacheManager sharedInstance] delKey:textField.accessibilityIdentifier];
         return;
     }
     [[DoraemonCacheManager sharedInstance] saveInfoByKey:textField.accessibilityIdentifier val:textField.text];

@@ -23,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)saveInfoByKey:(NSString*)key val:(NSString*)val;
 -(NSString*)getInfoByKey:(NSString*)key;
 
+-(void)delKey:(NSString*)key;
+
 @end
 
 NS_ASSUME_NONNULL_END

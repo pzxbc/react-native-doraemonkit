@@ -3,6 +3,7 @@
 #import <React/RCTBundleURLProvider.h>
 #import "DoraemonCacheManager+RNDevTool.h"
 #import "RNDevToolConstants.h"
+#import "DoraemonWeexLogDataSource.h"
 
 #ifdef DEBUG
 //#import <DOraemonKit/DoraemonManager.h>
@@ -19,13 +20,13 @@
     return instance;
 }
 
-- (id)init
+- (instancetype)init
 {
   if (self = [super init]) {
     self.defaultBundleUrl = true;
-    return self;
+      [DoraemonWeexLogDataSource shareInstance];
   }
-  return nil;
+  return self;
 }
 
 + (NSURL *)bundleURL
