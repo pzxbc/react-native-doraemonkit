@@ -1,0 +1,69 @@
+PODS:
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - DoraemonKit/Core (3.0.2)
+  - DoraemonKit/WithDatabase (3.0.2):
+    - DoraemonKit/Core
+    - YYDebugDatabase
+  - DoraemonKit/WithGPS (3.0.2):
+    - DoraemonKit/Core
+  - DoraemonKit/WithLoad (3.0.2):
+    - DoraemonKit/Core
+  - DoraemonKit/WithLogger (3.0.2):
+    - CocoaLumberjack
+    - DoraemonKit/Core
+  - DoraemonKit/WithMLeaksFinder (3.0.2):
+    - DoraemonKit/Core
+  - DoraemonKit/WithWeex (3.0.2):
+    - DoraemonKit/Core
+    - WeexSDK
+    - WXDevtool
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - SocketRocket (0.5.1)
+  - WeexSDK (0.26.0)
+  - WXDevtool (0.24.0):
+    - SocketRocket
+    - WeexSDK
+  - YYDebugDatabase (2.0.9):
+    - FMDB
+    - GCDWebServer
+
+DEPENDENCIES:
+  - DoraemonKit/Core (~> 3.0.2)
+  - DoraemonKit/WithDatabase (~> 3.0.2)
+  - DoraemonKit/WithGPS (~> 3.0.2)
+  - DoraemonKit/WithLoad (~> 3.0.2)
+  - DoraemonKit/WithLogger (~> 3.0.2)
+  - DoraemonKit/WithMLeaksFinder (~> 3.0.2)
+  - DoraemonKit/WithWeex (~> 3.0.2)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - DoraemonKit
+    - FMDB
+    - GCDWebServer
+    - SocketRocket
+    - WeexSDK
+    - WXDevtool
+    - YYDebugDatabase
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  DoraemonKit: 8587e7a9aae0773dfc96707d2369d89d2a21b3d2
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WeexSDK: 55b67d1c411eb28ec1e356f763a335d0ddcc5324
+  WXDevtool: 95b70c73c06fc3299d65bd53ba4b3e0b0087f3cb
+  YYDebugDatabase: e9e1d2a92c32b29c8a2777e3a49d34f8133efae0
+
+PODFILE CHECKSUM: ee72c916570e115c0d1ca737a340324d8e1d4919
+
+COCOAPODS: 1.9.3

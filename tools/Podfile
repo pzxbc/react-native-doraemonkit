@@ -1,0 +1,16 @@
+platform :ios, '8.0'
+
+plugin 'cocoapods-rome', {
+  dsym: false,
+  configuration: 'Release'
+}
+
+target 'DoraemonKitFramework' do
+  pod 'DoraemonKit/Core', '~> 3.0.2'
+  pod 'DoraemonKit/WithLogger', '~> 3.0.2'
+  pod 'DoraemonKit/WithGPS', '~> 3.0.2'
+  pod 'DoraemonKit/WithLoad', '~> 3.0.2'
+  pod 'DoraemonKit/WithDatabase', '~> 3.0.2'
+  pod 'DoraemonKit/WithMLeaksFinder', '~> 3.0.2'
+  pod 'DoraemonKit/WithWeex', '~> 3.0.2'
+end
